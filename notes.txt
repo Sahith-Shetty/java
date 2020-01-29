@@ -1,0 +1,43 @@
+29/01/2020
+
+Git
+SDLC [Agile]
+-requirements
+-design :- ui/server/technology
+-development
+-testing:- unit testing,integration testing,system testing/uat
+-deployment
+
+VCS and SCM
+Remote repositary:- this is back up
+
+cd ..  :- go back once
+cd../..  :- go back twice
+
+git init:- initializing the git in the workspace
+git status:- to check files which are in repositary
+{git add filename:- to add file to stating area
+git commit -m "Initial code base"} :-to upload code to staging area
+
+{git remote add origin https://github.com/Sahith-Shetty/java.git
+git push 
+git push --set-upstream origin master}:- to move to repository
+
+
+
+
+
+
+
+create a new repository on the command line
+echo "# java" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Sahith-Shetty/java.git
+git push -u origin master
+
+push an existing repository from the command line
+git remote add origin https://github.com/Sahith-Shetty/java.git
+git push -u origin master
+
