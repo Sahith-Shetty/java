@@ -29,6 +29,7 @@ class computer {
 		/*
 		 * instead of initializing again we can use 'this' this.manufacturer =
 		 * manufacturer; this.model = model;
+		 * this is called 'this method'
 		 */
 		this(manufacturer, model);
 		this.ram = ram;
